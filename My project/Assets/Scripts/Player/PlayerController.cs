@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
 
-   // public LayerMask solidObjectsLayer;
+    public LayerMask solidObjectsLayer;
 
     private bool isMoving;
     private Vector2 input;
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
 
-            Debug.Log(input);
+            
 
             if (input.x != 0) input.y = 0;
 
@@ -44,11 +44,11 @@ public class PlayerController : MonoBehaviour
                 var targetPos = transform.position;
                 targetPos.x += input.x;
                 targetPos.y += input.y;
-                Debug.Log("asdfasdfasdfasdf");
-                //if(IsWalkable(targetPos))
-                //{
-                StartCoroutine(Move(targetPos));
-                //}
+                
+                if(IsWalkable(targetPos))
+                {
+                    StartCoroutine(Move(targetPos));
+                }
                 
             }
         }
@@ -69,12 +69,13 @@ public class PlayerController : MonoBehaviour
         isMoving = false;
     }
 
-    //private bool IsWalkable(Vector3 targetPos) 
-    //{
-    //    if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer) != null)
-    //    {
-    //        return false;
-    //    }
-    //    return true;
-    //}
+    private bool IsWalkable(Vector3 targetPos) 
+    {
+        if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer) != null)
+        {
+            Debug.Log("asdfasd does this run");
+            return false;
+        }
+        return true;
+    }
 }
