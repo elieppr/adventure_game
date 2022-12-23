@@ -10,12 +10,12 @@ public class PlayerController : MonoBehaviour
     public LayerMask interactableLayer;
     private bool isMoving;
     private Vector2 input;
-    //private Animator animator;
+    private CharactorAnimator animator;
 
 
     private void Awake()
     {
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<CharactorAnimator>();
     }
 
     // Start is called before the first frame update
@@ -38,8 +38,8 @@ public class PlayerController : MonoBehaviour
 
             if (input != Vector2.zero)
             {
-                //animator.SetFloat("moveX", input.x);
-                //animator.SetFloat("moveY", input.y);
+                animator.MoveX = input.x;
+                animator.MoveY = input.y;
 
                 var targetPos = transform.position;
                 targetPos.x += input.x;
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        //animator.SetBool("isMoving", isMoving);
+        animator.IsMoving = isMoving;
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
@@ -86,8 +86,7 @@ public class PlayerController : MonoBehaviour
 
     void Interact()
     {
-        //var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-        var facingDir = new Vector3(0f, 1f);
+        var facingDir = new Vector3(animator.MoveX, animator.MoveY);
         var interactPos = transform.position + facingDir;
 
         Debug.DrawLine(transform.position, interactPos, Color.white, 1f);

@@ -10,10 +10,10 @@ public class GameController : MonoBehaviour
 
     GameState state;
 
-    private void Awake()
-    {
+    //private void Awake()
+    //{
     //    ConditionsDB.Init();
-    }
+    //}
 
     private void Start()
     {
