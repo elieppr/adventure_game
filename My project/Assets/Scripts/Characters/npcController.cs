@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class npcController : MonoBehaviour, Interactable
 {
+    [SerializeField] Dialogue dialogue;
     public void Interact()
     {
-        Debug.Log("interacting");
+        StartCoroutine(DialogueManager.Instance.ShowDialogue(dialogue));
     }
     // Start is called before the first frame update
     void Start()
