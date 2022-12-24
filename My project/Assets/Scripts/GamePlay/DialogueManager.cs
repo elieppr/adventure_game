@@ -23,11 +23,13 @@ public class DialogueManager : MonoBehaviour
     int currentLine = 0;
     Dialogue dialogue;
     bool isTyping;
+    public bool IsShowing { get; private set; }
 
     public int lettersPerSecond;
 
     public IEnumerator ShowDialogue(Dialogue dialogue)
     {
+        IsShowing = true;
         yield return new WaitForEndOfFrame();
 
         OnShowDialogue?.Invoke();
@@ -60,6 +62,7 @@ public class DialogueManager : MonoBehaviour
             else
             {
                 currentLine = 0;
+                IsShowing = false;
                 dialogueBox.SetActive(false);
                 OnCloseDialogue?.Invoke();
             }

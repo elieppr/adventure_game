@@ -5,9 +5,17 @@ using UnityEngine;
 public class npcController : MonoBehaviour, Interactable
 {
     [SerializeField] Dialogue dialogue;
-    //[SerializeField] List<Sprite> sprites;
+    [SerializeField] List<Vector2> MovementPattern;
+    [SerializeField] float timeBetweenPattern;
+    private Character character;
+    NPCState state;
+    float idleTimer = 0f;
+    int currentPattern = 0;
 
-    //SpriteAnimator spriteAnimator;
+    private void Awake()
+    {
+        character = GetComponent<Character>();
+    }
 
     private void Start()
     {
@@ -17,12 +25,42 @@ public class npcController : MonoBehaviour, Interactable
 
     public void Interact()
     {
-        StartCoroutine(DialogueManager.Instance.ShowDialogue(dialogue));
+        if (state == NPCState.Idle)
+        {
+            StartCoroutine(DialogueManager.Instance.ShowDialogue(dialogue));
+        }
     }
-    
+
     // Update is called once per frame
     void Update()
     {
-        //spriteAnimator.HandleUpdate();
+        if (DialogueManager.Instance.IsShowing) return;
+
+        if (state == NPCState.Idle)
+        {
+            idleTimer += Time.deltaTime;
+            if (idleTimer > timeBetweenPattern)
+            {
+                if (MovementPattern.Count > 0) { 
+                    StartCoroutine(Walk());
+                }
+                idleTimer = 0f;
+            }
+        }
+        character.HandleUpdate();
+
+    }
+
+    IEnumerator Walk()
+    {
+        state = NPCState.Walking;
+
+        yield return character.Move(MovementPattern[currentPattern]);
+
+        currentPattern = (currentPattern + 1) % MovementPattern.Count;
+
+        state = NPCState.Idle;
     }
 }
+
+public enum NPCState { Idle, Walking }
