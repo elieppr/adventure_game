@@ -6,6 +6,7 @@ public class GameLayers : MonoBehaviour
 {
     [SerializeField] LayerMask solidObjectsLayer;
     [SerializeField] LayerMask interactableLayer;
+    [SerializeField] LayerMask playerLayer;
 
     public static GameLayers i { get; set; }
     private void Awake()
@@ -22,6 +23,11 @@ public class GameLayers : MonoBehaviour
     {
         get => interactableLayer;
     }
+    public LayerMask PlayerLayer
+    {
+        get => playerLayer;
+    }
+    
     // Start is called before the first frame update
     void Start()
     {

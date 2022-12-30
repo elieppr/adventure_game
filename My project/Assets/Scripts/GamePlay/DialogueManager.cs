@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] GameObject dialogueBox;
     [SerializeField] TMP_Text dialogueText;
     
-
+    
     public event Action OnShowDialogue;
     public event Action OnCloseDialogue;
 
@@ -21,19 +21,21 @@ public class DialogueManager : MonoBehaviour
     }
 
     int currentLine = 0;
+    Action onDialogueFinished;
     Dialogue dialogue;
     bool isTyping;
     public bool IsShowing { get; private set; }
 
     public int lettersPerSecond;
 
-    public IEnumerator ShowDialogue(Dialogue dialogue)
+    public IEnumerator ShowDialogue(Dialogue dialogue, Action onFinished=null)
     {
         IsShowing = true;
         yield return new WaitForEndOfFrame();
 
         OnShowDialogue?.Invoke();
         this.dialogue = dialogue;
+        onDialogueFinished = onFinished;
         dialogueBox.SetActive(true);
         //dialogueText.text = dialogue.Lines[0];
         StartCoroutine(TypeDialogue(dialogue.Lines[0]));
@@ -64,6 +66,7 @@ public class DialogueManager : MonoBehaviour
                 currentLine = 0;
                 IsShowing = false;
                 dialogueBox.SetActive(false);
+                onDialogueFinished.Invoke();
                 OnCloseDialogue?.Invoke();
             }
         }
