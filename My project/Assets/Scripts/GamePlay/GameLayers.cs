@@ -7,6 +7,8 @@ public class GameLayers : MonoBehaviour
     [SerializeField] LayerMask solidObjectsLayer;
     [SerializeField] LayerMask interactableLayer;
     [SerializeField] LayerMask playerLayer;
+    [SerializeField] LayerMask portalLayer;
+    
 
     public static GameLayers i { get; set; }
     private void Awake()
@@ -27,16 +29,12 @@ public class GameLayers : MonoBehaviour
     {
         get => playerLayer;
     }
-    
-    // Start is called before the first frame update
-    void Start()
+    public LayerMask PortalLayer
     {
-        
+        get => portalLayer;
     }
-
-    // Update is called once per frame
-    void Update()
+    public LayerMask TriggerableLayers 
     {
-        
+        get => portalLayer;
     }
 }

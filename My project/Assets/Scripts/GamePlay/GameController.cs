@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameState { FreeRoam, Dialogue }
+public enum GameState { FreeRoam, Dialogue, Paused }
 public class GameController : MonoBehaviour
 {
     [SerializeField] PlayerController playerController;
     [SerializeField] Camera worldCamera;
 
     GameState state;
-
-    //private void Awake()
-    //{
-    //    ConditionsDB.Init();
-    //}
-
+    GameState stateBeforePaused;
+    private void Awake()
+    {
+        Instance = this;
+        //ConditionsDB.Init();
+    }
+    public static GameController Instance { get; private set;}
     private void Start()
     {
         DialogueManager.Instance.OnShowDialogue += () =>
@@ -28,6 +29,19 @@ public class GameController : MonoBehaviour
                 state = GameState.FreeRoam;
             }
         };
+    }
+
+    public void PauseGame(bool pause) 
+    {
+        if (pause) 
+        {
+            stateBeforePaused = state;
+            state = GameState.Paused;
+        }
+        else 
+        {
+            state = stateBeforePaused;
+        }
     }
 
     private void Update()

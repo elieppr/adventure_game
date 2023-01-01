@@ -1,17 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Character : MonoBehaviour
 {
     CharactorAnimator animator;
     public float moveSpeed;
     public bool IsMoving { get; private set; }
+    public float OffsetY { get; private set; } = 0.3f; 
+
     private void Awake()
     {
         animator = GetComponent<CharactorAnimator>();
+        SetPositionAndSetToTile(transform.position);
     }
-    public IEnumerator Move(Vector2 moveVect)
+    public IEnumerator Move(Vector2 moveVect, Action OnMoveOver=null)
     {
 
         animator.MoveX = Mathf.Clamp(moveVect.x, -1f, 1f);
@@ -36,12 +40,22 @@ public class Character : MonoBehaviour
         transform.position = targetPos;
 
         IsMoving = false;
+        OnMoveOver?.Invoke();
     }
 
     public void HandleUpdate()
     {
         animator.IsMoving = IsMoving;
     }
+
+    public void SetPositionAndSetToTile(Vector2 pos) 
+    {
+        pos.x = Mathf.Floor(pos.x) + 0.5f;
+        pos.y = Mathf.Floor(pos.y) + 0.5f + OffsetY;
+
+        transform.position = pos;
+    }
+
     public bool IsPathClear(Vector3 targetPos) 
     {
         var diff = targetPos - transform.position;
