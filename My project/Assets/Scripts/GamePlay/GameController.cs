@@ -1,14 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameState { FreeRoam, Dialogue, Paused }
+public enum GameState { FreeRoam, Dialogue, Paused, Bag }
 public class GameController : MonoBehaviour
 {
     [SerializeField] PlayerController playerController;
     [SerializeField] Camera worldCamera;
-
-    GameState state;
+    [SerializeField] InventoryUI inventoryUI;
+    public GameState state;
     GameState stateBeforePaused;
     private void Awake()
     {
@@ -31,10 +32,13 @@ public class GameController : MonoBehaviour
         };
     }
 
+    
+
     public void PauseGame(bool pause) 
     {
         if (pause) 
         {
+            //Debug.Log("paused?");
             stateBeforePaused = state;
             state = GameState.Paused;
         }
@@ -42,6 +46,12 @@ public class GameController : MonoBehaviour
         {
             state = stateBeforePaused;
         }
+    }
+
+    public void OnBagSelected()
+    {
+        inventoryUI.gameObject.SetActive(true);
+        state = GameState.Bag;
     }
 
     private void Update()
@@ -53,6 +63,16 @@ public class GameController : MonoBehaviour
         else if (state == GameState.Dialogue)
         {
             DialogueManager.Instance.HandleUpdate();
-        }    
+        }
+        else if (state == GameState.Bag)
+        {
+            Action onBack = () =>
+            {
+                inventoryUI.gameObject.SetActive(false);
+                state = GameState.FreeRoam;
+            };
+            inventoryUI.HandleUpdate(onBack);
+        }
+        
     }
 }

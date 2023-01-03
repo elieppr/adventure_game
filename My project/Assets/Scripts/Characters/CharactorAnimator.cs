@@ -63,8 +63,9 @@ public class CharactorAnimator : MonoBehaviour
             currentAnim.Start();
         }
 
-        if (IsMoving)
+        if (IsMoving && GameController.Instance.state != GameState.Paused)
         {
+            Debug.Log("ISMOVING");
             currentAnim.HandleUpdate();
         }
         else

@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     public void HandleUpdate()
     {
         if (!character.IsMoving)
@@ -43,6 +42,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             Interact();
+        }
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            GameController.Instance.OnBagSelected();
+
         }
     }
 

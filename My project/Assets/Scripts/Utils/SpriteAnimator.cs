@@ -27,6 +27,7 @@ public class SpriteAnimator
 
     public void HandleUpdate()
     {
+        Debug.Log(" sdfsdfasdf ");
         timer += Time.deltaTime;
         if (timer > frameRate)
         {
