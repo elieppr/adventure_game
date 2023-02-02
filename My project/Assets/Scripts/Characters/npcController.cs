@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class npcController : MonoBehaviour, Interactable
 {
+    [SerializeField] QuestBase questToStart;
     [SerializeField] Dialogue dialogue;
     [SerializeField] List<Vector2> MovementPattern;
     [SerializeField] float timeBetweenPattern;
@@ -11,29 +12,64 @@ public class npcController : MonoBehaviour, Interactable
     NPCState state;
     float idleTimer = 0f;
     int currentPattern = 0;
-
+    ItemGiver itemGiver;
+    Quest activeQuest;
     private void Awake()
     {
         character = GetComponent<Character>();
+        itemGiver = GetComponent<ItemGiver>();
     }
 
     private void Start()
     {
+        //questToStart = new QuestBase();
         //spriteAnimator = new SpriteAnimator(sprites, GetComponent<SpriteRenderer>());
         //spriteAnimator.Start();
     }
 
-    public void Interact(Transform initiator)
+    public IEnumerator Interact(Transform initiator)
     {
+        Debug.Log("interact function");
+        state = NPCState.Idle;
         if (state == NPCState.Idle)
         {
+            Debug.Log("quest to start" + questToStart);
             state = NPCState.Dialogue;
             character.LookTowards(initiator.position);
-            StartCoroutine(DialogueManager.Instance.ShowDialogue(dialogue, () => { 
-                idleTimer = 0f;
-                state = NPCState.Idle;
-            }));
+            
+            if (itemGiver != null && itemGiver.CanBeGiven())
+            {
+                yield return itemGiver.GiveItem(initiator.GetComponent<PlayerController>());
+            }
+            else if (questToStart != null)
+            {
+                Debug.Log("is quest null"); 
+                activeQuest = new Quest(questToStart);
+                yield return activeQuest.StartQuest();
+                questToStart = null;
+            }
+            else if (activeQuest != null)
+            {
+                Debug.Log("stuff is going well");
+                if (activeQuest.CanBeCompleted())
+                {
+                    yield return activeQuest.CompleteQuest();
+                    activeQuest = null;
+                }
+                else
+                {
+                    yield return DialogueManager.Instance.ShowDialogue(activeQuest.Base.InProgressDialogue);
+                }
+            }
+            else
+            {
+                yield return DialogueManager.Instance.ShowDialogue(dialogue);
+
+            }
+            idleTimer = 0f;
+            state = NPCState.Idle;
         }
+        //yield break;
     }
 
     // Update is called once per frame

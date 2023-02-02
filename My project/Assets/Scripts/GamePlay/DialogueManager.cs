@@ -20,55 +20,64 @@ public class DialogueManager : MonoBehaviour
         Instance = this;
     }
 
-    int currentLine = 0;
-    Action onDialogueFinished;
-    Dialogue dialogue;
-    bool isTyping;
+    //int currentLine = 0;
+    //Action onDialogueFinished;
+    //Dialogue dialogue;
+    //bool isTyping;
     public bool IsShowing { get; private set; }
 
     public int lettersPerSecond;
 
-    public IEnumerator ShowDialogue(Dialogue dialogue, Action onFinished=null)
+    public IEnumerator ShowDialogue(Dialogue dialogue)
     {
         IsShowing = true;
         yield return new WaitForEndOfFrame();
 
         OnShowDialogue?.Invoke();
-        this.dialogue = dialogue;
-        onDialogueFinished = onFinished;
+        //this.dialogue = dialogue;
+        //onDialogueFinished = onFinished;
         dialogueBox.SetActive(true);
         //dialogueText.text = dialogue.Lines[0];
-        StartCoroutine(TypeDialogue(dialogue.Lines[0]));
+
+        foreach (var line in dialogue.Lines)
+        {
+            yield return TypeDialogue(line);
+            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Z));
+        }
+        dialogueBox.SetActive(false);
+        IsShowing = false;
+        OnCloseDialogue?.Invoke();
+        //StartCoroutine(TypeDialogue(dialogue.Lines[0]));
     }
 
     public IEnumerator TypeDialogue(string line)
     {
-        isTyping = true;
+        //isTyping = true;
         dialogueText.text = "";
         foreach (var letter in line.ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(1f / lettersPerSecond);
         }
-        isTyping = false;
+        //isTyping = false;
     }
     public void HandleUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && !isTyping)
-        {
-            ++currentLine;
-            if (currentLine < dialogue.Lines.Count)
-            {
-                StartCoroutine(TypeDialogue(dialogue.Lines[currentLine]));
-            }
-            else
-            {
-                currentLine = 0;
-                IsShowing = false;
-                dialogueBox.SetActive(false);
-                onDialogueFinished.Invoke();
-                OnCloseDialogue?.Invoke();
-            }
-        }
+        //if (Input.GetKeyDown(KeyCode.Z) && !isTyping)
+        //{
+        //    ++currentLine;
+        //    if (currentLine < dialogue.Lines.Count)
+        //    {
+        //        StartCoroutine(TypeDialogue(dialogue.Lines[currentLine]));
+        //    }
+        //    else
+        //    {
+        //        currentLine = 0;
+        //        IsShowing = false;
+        //        dialogueBox.SetActive(false);
+        //        onDialogueFinished.Invoke();
+        //        OnCloseDialogue?.Invoke();
+        //    }
+        //}
     }
 }

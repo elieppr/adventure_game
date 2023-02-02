@@ -7,8 +7,10 @@ public class Dialogue
 {
     [SerializeField] List<string> lines;
 
+    public Dialogue() { this.Lines = new List<string>(); }
     public List<string> Lines
     {
+        set { lines = value; }
         get { return lines; }
     }
 }

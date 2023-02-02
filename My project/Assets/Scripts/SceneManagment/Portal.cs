@@ -11,7 +11,7 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
     [SerializeField] Transform spawnPoint;
 
     PlayerController player;
-
+    public bool TriggerRepeatedly => false;
     public void OnPlayerTriggered(PlayerController player)
     {
         this.player = player;
