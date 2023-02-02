@@ -5,6 +5,7 @@ using UnityEngine;
 public class npcController : MonoBehaviour, Interactable
 {
     [SerializeField] QuestBase questToStart;
+    [SerializeField] QuestBase questToComplete;
     [SerializeField] Dialogue dialogue;
     [SerializeField] List<Vector2> MovementPattern;
     [SerializeField] float timeBetweenPattern;
@@ -33,10 +34,19 @@ public class npcController : MonoBehaviour, Interactable
         state = NPCState.Idle;
         if (state == NPCState.Idle)
         {
+
             Debug.Log("quest to start" + questToStart);
             state = NPCState.Dialogue;
             character.LookTowards(initiator.position);
             
+            if (questToComplete != null)
+            {
+                var quest  = new Quest(questToComplete);
+                yield return quest.CompleteQuest();
+                questToComplete = null;
+                Debug.Log("quest completed");
+            }
+
             if (itemGiver != null && itemGiver.CanBeGiven())
             {
                 yield return itemGiver.GiveItem(initiator.GetComponent<PlayerController>());
@@ -47,6 +57,13 @@ public class npcController : MonoBehaviour, Interactable
                 activeQuest = new Quest(questToStart);
                 yield return activeQuest.StartQuest();
                 questToStart = null;
+
+                if (activeQuest.CanBeCompleted())
+                {
+                    yield return activeQuest.CompleteQuest();
+                    activeQuest = null;
+                }
+
             }
             else if (activeQuest != null)
             {
