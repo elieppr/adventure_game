@@ -14,6 +14,10 @@ public class Quest
 
     public IEnumerator StartQuest()
     {
+        if (Status == QuestStatus.Completed)
+        {
+            yield break;
+        }
         Debug.Log("StartQuest?");
         Status = QuestStatus.Started;
 
