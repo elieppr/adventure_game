@@ -22,7 +22,7 @@ public class Quest
         var questList = QuestList.GetQuestList();
         questList.AddQuest(this);
     }
-    public IEnumerator CompleteQuest()
+    public IEnumerator CompleteQuest() 
     {
         Status = QuestStatus.Completed;
         yield return DialogueManager.Instance.ShowDialogue(Base.CompletedDialogue);
@@ -52,7 +52,6 @@ public class Quest
             {
                 return false;
             }
-            
         }
         return true;
     }

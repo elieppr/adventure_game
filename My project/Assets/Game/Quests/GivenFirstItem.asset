@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33dd1eee6cd3d2b41aaf8457dbc797be, type: 3}
   m_Name: GivenFirstItem
   m_EditorClassIdentifier: 
-  name: 
+  name: when given item then quest yay
   description: 
   startDialogue:
     lines: []
