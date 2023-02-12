@@ -593,8 +593,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1513303573
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -885106289, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5976c463ff0c2c04d9ad243e9a94c9eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 8
 --- !u!50 &788647135305803972
 Rigidbody2D:
   serializedVersion: 4
@@ -792,7 +792,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 5.835924
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
