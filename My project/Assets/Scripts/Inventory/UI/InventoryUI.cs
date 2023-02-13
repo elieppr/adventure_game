@@ -71,6 +71,10 @@ public class InventoryUI : MonoBehaviour
 
     void UpdateItemSelection()
     {
+        if (slotUIList.Count == 0)
+        {
+            return;
+        }
         for(int i = 0; i< slotUIList.Count; i++)
         {
             if (i == selectedItem)

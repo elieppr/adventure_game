@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0346bf3f7e9acc4ca1ebee3dd744db4, type: 3}
-  m_Name: Food
+  m_Name: PlasticBagBlue
   m_EditorClassIdentifier: 
-  name: testfood
-  description: idk man
-  icon: {fileID: 21300000, guid: 5d52b20f865aff242bfcb08c3b6f61a5, type: 3}
-  character: red panda
+  name: Blue Plastic Bag
+  description: A source of dioxin and other pollutants that are changing marine habitats
+    and polluting the food chain.
+  icon: {fileID: 21300000, guid: 53a73af646be0684e9d9b0117ad012d0, type: 3}
+  character: 

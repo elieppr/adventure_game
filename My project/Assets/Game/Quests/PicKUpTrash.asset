@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33dd1eee6cd3d2b41aaf8457dbc797be, type: 3}
+  m_Name: PicKUpTrash
+  m_EditorClassIdentifier: 
+  name: Pick Up Trash
+  description: pick up all the trash around the pipes
+  startDialogue:
+    lines:
+    - plz do task
+  inProgressDialogue:
+    lines:
+    - doing task
+  completedDialogue:
+    lines:
+    - wow tyyy
+  requiredItems:
+  - {fileID: 11400000, guid: daeb1549d6a995a4db5c2e29911e300b, type: 2}
+  - {fileID: 11400000, guid: daeb1549d6a995a4db5c2e29911e300b, type: 2}
+  - {fileID: 11400000, guid: daeb1549d6a995a4db5c2e29911e300b, type: 2}
+  - {fileID: 11400000, guid: d10abf5f39e907249b63aee3f91e0c5a, type: 2}
+  - {fileID: 11400000, guid: d10abf5f39e907249b63aee3f91e0c5a, type: 2}
+  rewardItem: {fileID: 0}

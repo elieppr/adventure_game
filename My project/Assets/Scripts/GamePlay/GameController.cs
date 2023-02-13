@@ -50,6 +50,7 @@ public class GameController : MonoBehaviour
 
     public void OnBagSelected()
     {
+        Debug.Log("bag selected");
         inventoryUI.gameObject.SetActive(true);
         state = GameState.Bag;
     }
