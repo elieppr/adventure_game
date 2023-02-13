@@ -23,5 +23,9 @@ MonoBehaviour:
   completedDialogue:
     lines:
     - Wow thank you so so much!
-  requiredItem: {fileID: 11400000, guid: d4e4d765399e6b444b5d27e8b476aa57, type: 2}
+  requiredItems:
+  - {fileID: 11400000, guid: d4e4d765399e6b444b5d27e8b476aa57, type: 2}
+  - {fileID: 11400000, guid: d4e4d765399e6b444b5d27e8b476aa57, type: 2}
+  - {fileID: 11400000, guid: d4e4d765399e6b444b5d27e8b476aa57, type: 2}
+  - {fileID: 11400000, guid: d4e4d765399e6b444b5d27e8b476aa57, type: 2}
   rewardItem: {fileID: 11400000, guid: 05f03f8a0037b8e42a34ab0047be9f83, type: 2}

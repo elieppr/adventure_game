@@ -31,15 +31,19 @@ public class Quest
         Status = QuestStatus.Completed;
         yield return DialogueManager.Instance.ShowDialogue(Base.CompletedDialogue);
         var inventory = Inventory.GetInventory();
-        if(Base.RequiredItem != null)
+        if(Base.RequiredItems != null && Base.RequiredItems.Count > 0)
         {
-            inventory.RemoveItem(Base.RequiredItem);
+            foreach (ItemBase requireditem in Base.RequiredItems)
+            {
+                inventory.RemoveItem(requireditem);
+            }
+            //inventory.RemoveItem(Base.RequiredItem);
         }
         if(Base.RewardItem != null)
         {
             inventory.AddItem(Base.RewardItem);
             Dialogue d = new Dialogue();
-            d.Lines.Add($"You recieved {Base.RequiredItem}");
+            d.Lines.Add($"You recieved {Base.RewardItem}");
             yield return DialogueManager.Instance.ShowDialogue(d);
         }
 
@@ -50,12 +54,19 @@ public class Quest
     {
         var inventory = Inventory.GetInventory();
 
-        if(Base.RequiredItem != null)
+        if(Base.RequiredItems != null && Base.RequiredItems.Count > 0)
         {
-            if (!inventory.HasItem(Base.RequiredItem))
+            foreach (ItemBase requiredItem in Base.RequiredItems)
             {
-                return false;
+                if (!inventory.HasItem(requiredItem))
+                {
+                    return false;
+                }
             }
+            //if (!inventory.HasItem(Base.RequiredItem))
+            //{
+            //    return false;
+            //}
         }
         return true;
     }

@@ -9,16 +9,16 @@ public class Pickup : MonoBehaviour, Interactable
     [SerializeField] public static bool created = false;
     
     void Awake() {
-        Debug.Log("is awake called");
-        Debug.Log("used " + Used);
-        if (Used || created) 
-        {
-            //DontDestroyOnLoad(this.gameObject);
-            Debug.Log("why not doing this");
-            GetComponent<SpriteRenderer>().enabled = false;
-            GetComponent<BoxCollider2D>().enabled = false;
+        //Debug.Log("is awake called");
+        //Debug.Log("used " + Used);
+        //if (Used || created) 
+        //{
+        //    //DontDestroyOnLoad(this.gameObject);
+        //    Debug.Log("why not doing this");
+        //    GetComponent<SpriteRenderer>().enabled = false;
+        //    GetComponent<BoxCollider2D>().enabled = false;
 
-        }
+        //}
     }
     public IEnumerator Interact(Transform initiator)
     {
@@ -38,10 +38,10 @@ public class Pickup : MonoBehaviour, Interactable
             d.Lines.Add($"Player found {item.Name}");
             yield return DialogueManager.Instance.ShowDialogue(d);
         }
-        if (Used)
-        {
-            DontDestroyOnLoad(this.gameObject);
+        //if (Used)
+        //{
+        //    DontDestroyOnLoad(this.gameObject);
 
-        }
+        //}
     }
 }
