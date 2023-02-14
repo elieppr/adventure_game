@@ -16,17 +16,42 @@ MonoBehaviour:
   description: pick up all the trash around the pipes
   startDialogue:
     lines:
-    - plz do task
+    - Ah, who are you? Did the humans bring you here?
+    - ... Oh...I see. I never tried going through the pipes before, since the dark
+      scares me.
+    - Well, this is a zoo, but it sure doesnt feel like it.
+    - Some of my siblings were scooped up by some mesh by the humans, and I never
+      saw them again.
+    - There's also trash everywhere, and it's just been growing and growing over
+      the years.
+    - ......
+    - Escape? Are you serious? Well the pipes are pretty big, but we need to use
+      a screwdriver to get the grate off.
+    - And well, none of us can even use a screwdriver. But...you can hold things
+      in your tentacles, right?
+    - I can tell you where it is, but can you do something for me first?
+    - '... It''s not that big of a deal, really. '
+    - My siblings and I have a hard time distinguishing between trash and food, so
+      sometimes we get sick from eating something we arent supposed to.
+    - Can you help collect the litter and bring it back here? In exchange, I'll give
+      you the screwdriver.
+    - I believe there are 3 Blue Plastic Bags, 2 Crumpled Papers, and 2 Plastic Cups.
   inProgressDialogue:
     lines:
-    - doing task
+    - Clean up time!!
+    - (Collect 3 Blue Plastic Bags, 2 Crumpled Papers, and 2 Plastic Cups)
   completedDialogue:
     lines:
-    - wow tyyy
+    - Yay! Now no one will get sick!
+    - Here is the screwdriver. When you get to the purple habitats, try and convice
+      them to use the screwdriver...
+    - THIS DIALOGUE NEEDS FIXING
   requiredItems:
   - {fileID: 11400000, guid: daeb1549d6a995a4db5c2e29911e300b, type: 2}
   - {fileID: 11400000, guid: daeb1549d6a995a4db5c2e29911e300b, type: 2}
   - {fileID: 11400000, guid: daeb1549d6a995a4db5c2e29911e300b, type: 2}
   - {fileID: 11400000, guid: d10abf5f39e907249b63aee3f91e0c5a, type: 2}
   - {fileID: 11400000, guid: d10abf5f39e907249b63aee3f91e0c5a, type: 2}
+  - {fileID: 11400000, guid: 0fa3431abe5c3014fa650b6a03df0f74, type: 2}
+  - {fileID: 11400000, guid: 0fa3431abe5c3014fa650b6a03df0f74, type: 2}
   rewardItem: {fileID: 0}

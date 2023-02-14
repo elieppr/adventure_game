@@ -6,10 +6,13 @@ public class npcController : MonoBehaviour, Interactable
 {
     [SerializeField] QuestBase questToStart;
     [SerializeField] QuestBase questToComplete;
-    [SerializeField] Dialogue dialogue;
+    [SerializeField] QuestBase questToCheck;
+    [SerializeField] Dialogue dialogueBefore;
+    [SerializeField] Dialogue dialogueAfter;
     [SerializeField] List<Vector2> MovementPattern;
     [SerializeField] float timeBetweenPattern;
     private Character character;
+    bool after = false; 
     NPCState state;
     float idleTimer = 0f;
     int currentPattern = 0;
@@ -46,7 +49,15 @@ public class npcController : MonoBehaviour, Interactable
                 questToComplete = null;
                 Debug.Log("quest completed");
             }
-
+            if (questToCheck != null)
+            {
+                QuestList questList = QuestList.GetQuestList();
+                if (questList.IsCompleted(questToCheck.Name))
+                {
+                    after = true;
+                    yield return DialogueManager.Instance.ShowDialogue(dialogueAfter);
+                }
+            }
             if (itemGiver != null && itemGiver.CanBeGiven())
             {
                 yield return itemGiver.GiveItem(initiator.GetComponent<PlayerController>());
@@ -80,7 +91,11 @@ public class npcController : MonoBehaviour, Interactable
             }
             else
             {
-                yield return DialogueManager.Instance.ShowDialogue(dialogue);
+                if (!after)
+                {
+                    yield return DialogueManager.Instance.ShowDialogue(dialogueBefore);
+
+                }
 
             }
             idleTimer = 0f;
