@@ -57,7 +57,7 @@ public class DialogueManager : MonoBehaviour
         foreach (var letter in line.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(1f / lettersPerSecond);
+            yield return new WaitForSeconds(0.01f / lettersPerSecond);
         }
         //isTyping = false;
     }
