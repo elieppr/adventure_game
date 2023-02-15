@@ -38,7 +38,7 @@ MonoBehaviour:
     - I believe there are 3 Blue Plastic Bags, 2 Crumpled Papers, and 2 Plastic Cups.
   inProgressDialogue:
     lines:
-    - Clean up time!!
+    - Clean up, clean up, everybody clean up!!
     - (Collect 3 Blue Plastic Bags, 2 Crumpled Papers, and 2 Plastic Cups)
   completedDialogue:
     lines:

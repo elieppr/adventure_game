@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33dd1eee6cd3d2b41aaf8457dbc797be, type: 3}
+  m_Name: StarfishLarry
+  m_EditorClassIdentifier: 
+  name: Starfish Realization
+  description: give starfish item and make starfish feel
+  startDialogue:
+    lines:
+    - Gaze upon my five glamorous, extravagant violet arms and cower at the sheer
+      power!
+    - There may be more blue starfish than purple, but that just makes my beauty
+      all the more elusive and exotic.
+    - 'This proves my ultimate superiority over those commoners! '
+  inProgressDialogue:
+    lines: []
+  completedDialogue:
+    lines:
+    - '*You give the (ITEM FROM BLUE STARFISH)*'
+    - Oh....
+    - "I treated my cousin so badly\u2026I should apologize. "
+  requiredItems: []
+  rewardItem: {fileID: 0}
