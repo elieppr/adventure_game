@@ -123,6 +123,285 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &263173733
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.45244503
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.39469123
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.017284393
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.02079022
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118483, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1155074380, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118483, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118483, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118483, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118484, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: moveSpeed
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: questToComplete
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: timeBetweenPattern
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[0].x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[1].x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[1].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[0]
+      value: You, halt! I have never laid eyes upon a specimen of your likes before.
+        State your name and purpose, stranger.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[1]
+      value: You dare bring the filth of the peasants into our enclosure, then denounce
+        the name of our home to my face and demand one of my deeply prized possessions,
+        the screwdriver?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[2]
+      value: Let me inform you of something, stranger. The reason why we live in
+        such splendor is because we are the elite.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[3]
+      value: The humans will always prioritize us over the commoners, as we naturally
+        preside over them because of our lustrous violet sheen. What happens to them
+        is of no concern to us, and will never be.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[4]
+      value: "That\u2019s the way things have always been, and the way things should
+        be. Besides, it\u2019s not like they\u2019re being hurt or killed, they just
+        have a lower quality of life than us."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[5]
+      value: '*You show the litter from the marine animals*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[6]
+      value: ......
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[7]
+      value: "The filth in the other habitats is even worse than I imagined\u2026not
+        even a commoner deserves to live in such conditions."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[8]
+      value: '*You show the smoke machine*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[9]
+      value: .......
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[10]
+      value: "Oh, it must\u2019ve been so hard for everyone to see each other, not
+        to mention the breathing conditions. How cruel of the humans to install these! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[11]
+      value: '*You show the (GREEN OBJECT)*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[12]
+      value: .......
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[13]
+      value: 'How can the commoners live when their appearance, caused by humans,
+        is even worse than their habitat? This will not do. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[14]
+      value: '*You show a bear trap*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[15]
+      value: .......
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[16]
+      value: "How horrible, to be brought into captivity only to be mercilessly slaughtered\u2026And
+        to think it\u2019s happening in such close proximity to our home\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[17]
+      value: .......
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[18]
+      value: ' I sincerely apologize, there seems to have been a miscalculation in
+        my judgment.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[19]
+      value: I see that even though we are the most beautiful out of all, that is
+        only because we are treated the best.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[20]
+      value: We are really no different than those who are suffering past the walls
+        of this enclosure.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[21]
+      value: "Very well\u2026For the sake and wellbeing of everyone in this zoo,
+        please allow us to join your escape plan. I will lend you the screwdriver
+        to show my gratitude."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[22]
+      value: "Very well\u2026For the sake and wellbeing of everyone in this zoo,
+        please allow us to join your escape plan."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkUpSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkDownSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkLeftSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkRightSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkUpSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: -195143289, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkDownSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 1290156067, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkLeftSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: -117414863, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkRightSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: -1155074380, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118493, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Name
+      value: IMPORTANT PURPLE BIRD
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
 --- !u!1 &449391430
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,6 +2419,183 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &720497014
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118480, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.45244503
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.39469123
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.017284393
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.02079022
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118482, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118483, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1155074380, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118483, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118483, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118483, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118484, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: moveSpeed
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: questToComplete
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: timeBetweenPattern
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[0].x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[1].x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[1].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[0]
+      value: Do you like my feathers? I just preened them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[1]
+      value: "\u2026 HEY! Don\u2019t touch them, or else they\u2019ll break"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkUpSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkDownSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkLeftSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkRightSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkUpSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: -195143289, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkDownSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 1290156067, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkLeftSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: -117414863, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkRightSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: -1155074380, guid: 7a23a95e70cc62a4f9cd9ba940f1cdf1, type: 3}
+    - target: {fileID: 1972585797808118493, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: m_Name
+      value: Purple birds
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
 --- !u!1001 &927478448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2614,6 +3070,18 @@ PrefabInstance:
       propertyPath: MovementPattern.Array.data[1].y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[0]
+      value: Look at my beautiful wings that catch the light when they flutter delicately.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[1]
+      value: "\u2026 HEY! Don\u2019t touch them, or else they\u2019ll break"
+      objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: walkUpSprites.Array.size
       value: 1
@@ -2633,19 +3101,19 @@ PrefabInstance:
     - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: walkUpSprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: b7d24d5b5e0cbf446ab1f7df7f132976, type: 3}
+      objectReference: {fileID: 1638965631, guid: 3cb1e27d5819286429374d443fc38e67, type: 3}
     - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: walkDownSprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: b7d24d5b5e0cbf446ab1f7df7f132976, type: 3}
+      objectReference: {fileID: 1064723496, guid: 3cb1e27d5819286429374d443fc38e67, type: 3}
     - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: walkLeftSprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: b7d24d5b5e0cbf446ab1f7df7f132976, type: 3}
+      objectReference: {fileID: -1417879481, guid: 3cb1e27d5819286429374d443fc38e67, type: 3}
     - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: walkRightSprites.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: b7d24d5b5e0cbf446ab1f7df7f132976, type: 3}
+      objectReference: {fileID: 488697471, guid: 3cb1e27d5819286429374d443fc38e67, type: 3}
     - target: {fileID: 1972585797808118493, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: m_Name
       value: butterfly
@@ -17976,6 +18444,10 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: questToStart
+      value: 
+      objectReference: {fileID: 11400000, guid: fade34765a25226478a28aa0cbf91d89, type: 2}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: questToComplete
       value: 
