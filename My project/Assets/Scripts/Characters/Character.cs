@@ -34,6 +34,16 @@ public class Character : MonoBehaviour
         IsMoving = true;
         while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
         {
+            if (GameController.Instance.state == GameState.Dialogue)
+            {
+                while(GameController.Instance.state == GameState.Dialogue)
+                {
+                    yield return new WaitForEndOfFrame();
+                }
+                LookTowards(transform.position);
+
+            }
+            
             transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
             yield return null;
         }

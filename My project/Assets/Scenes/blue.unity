@@ -88736,15 +88736,87 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: MovementPattern.Array.data[1].y
-      value: -3
+      propertyPath: MovementPattern.Array.size
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: MovementPattern.Array.data[3].y
+      propertyPath: MovementPattern.Array.data[0].x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[1].y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[2].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[2].y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[3].x
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[3].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[4].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[4].y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[5].x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[5].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[6].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[6].y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[7].y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[8].x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[8].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[9].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[9].y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: dialogueBefore.lines.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[10].x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: MovementPattern.Array.data[10].y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
