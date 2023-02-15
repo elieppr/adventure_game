@@ -14,6 +14,7 @@ public class npcController : MonoBehaviour, Interactable
     private Character character;
     bool after = false; 
     NPCState state;
+    public GameState gameState;
     float idleTimer = 0f;
     int currentPattern = 0;
     ItemGiver itemGiver;
@@ -26,6 +27,7 @@ public class npcController : MonoBehaviour, Interactable
 
     private void Start()
     {
+        
         //questToStart = new QuestBase();
         //spriteAnimator = new SpriteAnimator(sprites, GetComponent<SpriteRenderer>());
         //spriteAnimator.Start();
@@ -125,7 +127,10 @@ public class npcController : MonoBehaviour, Interactable
     IEnumerator Walk()
     {
         state = NPCState.Walking;
-
+        //if (GameController.Instance.state == GameState.Dialogue)
+        //{
+        //    yield break;
+        //}
         var oldPos = transform.position;
         yield return character.Move(MovementPattern[currentPattern]);
         if (transform.position != oldPos) 

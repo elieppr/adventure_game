@@ -9,7 +9,7 @@ public class GameController : MonoBehaviour
     [SerializeField] PlayerController playerController;
     [SerializeField] Camera worldCamera;
     [SerializeField] InventoryUI inventoryUI;
-    public GameState state;
+    public GameState state { get; private set;} 
     GameState stateBeforePaused;
     private void Awake()
     {
