@@ -128,6 +128,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 276526777176678144, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
@@ -136,7 +137,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678145, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: sceneToLoad
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 276526777176678145, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
+      propertyPath: destinationPortal
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678151, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: m_RootOrder
@@ -191,6 +196,7 @@ PrefabInstance:
       value: -0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
 --- !u!1 &470574182
 GameObject:
@@ -242,6 +248,7 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!483693784 &470574185
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -1765,6 +1772,7 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!483693784 &479315160
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -2696,6 +2704,7 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!483693784 &1046428134
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -22692,6 +22701,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 457111503496335656, guid: ae9854e66e47c402e819a55558ed1079, type: 3}
@@ -22743,12 +22753,14 @@ PrefabInstance:
       value: EssentialObjectsLoader
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ae9854e66e47c402e819a55558ed1079, type: 3}
 --- !u!1001 &2082201339
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 276526777176678144, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
@@ -22757,11 +22769,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678145, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: sceneToLoad
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678145, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: destinationPortal
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678150, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: m_Size.x
@@ -22781,11 +22793,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678151, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.23
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678151, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.48
+      value: 8.61
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678151, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22828,4 +22840,5 @@ PrefabInstance:
       value: -0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}

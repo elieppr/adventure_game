@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33dd1eee6cd3d2b41aaf8457dbc797be, type: 3}
+  m_Name: smoke
+  m_EditorClassIdentifier: 
+  name: Smoke
+  description: 
+  startDialogue:
+    lines:
+    - Ahh, who are you?
+    - "\u2026 Oh, hello. I\u2019m sorry, I\u2019ve been skittish lately."
+    - "\u2026 You\u2019ve been to other enclosures?"
+    - "Wow\u2026I\u2019m small, but I\u2019ve never thought of braving the pipe system
+      before."
+    - "\u2026 Yes, I would imagine that other habitats aren\u2019t as smoky as this
+      one is. Well, it\u2019s because of the humans."
+    - They thought the bees were going to sting us all, so they installed some smoke
+      machines under the floorboards to make smoke so the bees would be calm.
+    - " \u2026 But all it\u2019s done is make the bees lethargic and the yellowjackets
+      angry, so they sting us all the time. The machines can be easily taken out,
+      but we\u2019re too small to carry them."
+    - "Quickly\u2026we all might die to smoke inhalation, or yellowjacket venom,
+      just like my uncle Holland\u2026"
+  inProgressDialogue:
+    lines:
+    - '*cough* *cough*'
+  completedDialogue:
+    lines:
+    - Oh, you removed the smoke machines?
+    - "Phew, what a relief\u2026thank you. Everyone will get along much better now."
+    - "What? Escape? I\u2019m not sure\u2026well, everyone here is small enough,
+      and helping you is the least we can do to pay you back."
+    - Here is a smoke machine to bring to the royal animals. It might convince them
+      to help us.
+  requiredItems:
+  - {fileID: 11400000, guid: e026b1b1ca34a44418b7982dbc822fbd, type: 2}
+  - {fileID: 11400000, guid: e026b1b1ca34a44418b7982dbc822fbd, type: 2}
+  - {fileID: 11400000, guid: e026b1b1ca34a44418b7982dbc822fbd, type: 2}
+  - {fileID: 11400000, guid: e026b1b1ca34a44418b7982dbc822fbd, type: 2}
+  rewardItem: {fileID: 11400000, guid: 7b529c4d826bef441ac8800d474a9b06, type: 2}

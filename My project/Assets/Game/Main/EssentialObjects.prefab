@@ -390,9 +390,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788647135305803981}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 2.5, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 788647135892123022}
@@ -440,7 +440,7 @@ SpriteRenderer:
   m_SortingLayerID: -1513303573
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -885106289, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
+  m_Sprite: {fileID: -1690901350, guid: 3a74983b7778770448306373c23c88e3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -480,7 +480,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.24, y: 10.24}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1.28, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -502,17 +502,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkDownSprites:
-  - {fileID: -885106289, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
-  - {fileID: 1381615951, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
+  - {fileID: -1690901350, guid: 3a74983b7778770448306373c23c88e3, type: 3}
+  - {fileID: -68977126, guid: 3a74983b7778770448306373c23c88e3, type: 3}
   walkUpSprites:
-  - {fileID: 146321818, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
-  - {fileID: 954906745, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
+  - {fileID: 215179040, guid: 3a74983b7778770448306373c23c88e3, type: 3}
+  - {fileID: 454058519, guid: 3a74983b7778770448306373c23c88e3, type: 3}
   walkRightSprites:
-  - {fileID: 669569056, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
-  - {fileID: -962744729, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
+  - {fileID: -1819180340, guid: 3a74983b7778770448306373c23c88e3, type: 3}
   walkLeftSprites:
-  - {fileID: -1176475062, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
-  - {fileID: -1130351787, guid: bf859464b50ade74f8ceb0488b6945c7, type: 3}
+  - {fileID: 1793980645, guid: 3a74983b7778770448306373c23c88e3, type: 3}
 --- !u!114 &788647135305803975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,7 +610,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788647135892122994}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.6156702, z: -10}
+  m_LocalPosition: {x: -0.02, y: 0.05, z: -10}
   m_LocalScale: {x: 24.126198, y: 12.052233, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -237,7 +237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: dialogue.lines.Array.size
-      value: 23
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: dialogue.lines.Array.data[0]
@@ -295,59 +295,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: dialogue.lines.Array.data[11]
-      value: '*You show the (GREEN OBJECT)*'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[12]
-      value: .......
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[13]
-      value: 'How can the commoners live when their appearance, caused by humans,
-        is even worse than their habitat? This will not do. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[14]
-      value: '*You show a bear trap*'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[15]
-      value: .......
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[16]
-      value: "How horrible, to be brought into captivity only to be mercilessly slaughtered\u2026And
-        to think it\u2019s happening in such close proximity to our home\u2026"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[17]
-      value: .......
-      objectReference: {fileID: 0}
-    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[18]
       value: ' I sincerely apologize, there seems to have been a miscalculation in
         my judgment.'
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[19]
+      propertyPath: dialogue.lines.Array.data[12]
       value: I see that even though we are the most beautiful out of all, that is
         only because we are treated the best.
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[20]
+      propertyPath: dialogue.lines.Array.data[13]
       value: We are really no different than those who are suffering past the walls
         of this enclosure.
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[21]
+      propertyPath: dialogue.lines.Array.data[14]
       value: "Very well\u2026For the sake and wellbeing of everyone in this zoo,
         please allow us to join your escape plan. I will lend you the screwdriver
         to show my gratitude."
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
-      propertyPath: dialogue.lines.Array.data[22]
+      propertyPath: dialogue.lines.Array.data[15]
       value: Leave through the back of the house and we'll join after I hold a quick
         meeting with the rest of us.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[16]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[17]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[18]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[19]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[20]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[21]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[22]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: questToCheck
@@ -646,7 +644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678145, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: destinationPortal
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678151, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: m_RootOrder
@@ -3203,7 +3201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678145, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: destinationPortal
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678151, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: m_RootOrder
@@ -3219,7 +3217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678151, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.47
+      value: -2.55
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678151, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: m_LocalPosition.z
