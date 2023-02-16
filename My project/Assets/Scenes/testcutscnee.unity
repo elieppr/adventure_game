@@ -83632,6 +83632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13924294cf77ac94c94976a090261f3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  changeTime: 0.9
+  sceneName: blue
 --- !u!4 &1065630779
 Transform:
   m_ObjectHideFlags: 0
@@ -87615,11 +87617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 457111503496335656, guid: ae9854e66e47c402e819a55558ed1079, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4436612
+      value: -6.59
       objectReference: {fileID: 0}
     - target: {fileID: 457111503496335656, guid: ae9854e66e47c402e819a55558ed1079, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.8086002
+      value: -1.68
       objectReference: {fileID: 0}
     - target: {fileID: 457111503496335656, guid: ae9854e66e47c402e819a55558ed1079, type: 3}
       propertyPath: m_LocalPosition.z
@@ -87936,7 +87938,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00061035, y: 0}
+  m_AnchoredPosition: {x: 88.5, y: 108.5}
   m_SizeDelta: {x: 1206, y: 608}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706093222
