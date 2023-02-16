@@ -443,6 +443,65 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 4f996f1b008db94409d3b3171f7c1429, type: 2}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: count
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[0]
+      value: '*sob*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[1]
+      value: '*sob* I look so ugly...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[2]
+      value: "You don\u2019t think so? The humans make fun of me because I have legs
+        like a frog, but I have a tail like a tadpole."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[3]
+      value: "I know it\u2019s only temporary, but no one seems to get that, and
+        it seems like it\u2019s been forever since the teasing started."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[4]
+      value: "\u2026 Escape? Where will we go? Are there mean animals there?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[5]
+      value: "\u2026 Do you really mean it? Alright, I\u2019ll go with you. Thank
+        you for being nice to me."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[6]
+      value: "You\u2019re beautiful as well. Here's is a green blob for you."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: questToComplete
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: timeBetweenPattern
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[0]
+      value: '*happy ribbit*'
+      objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: walkUpSprites.Array.size
       value: 1
@@ -581,14 +640,30 @@ PrefabInstance:
     - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 11400000, guid: 4f996f1b008db94409d3b3171f7c1429, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: count
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: questToStart
+      value: 
+      objectReference: {fileID: 11400000, guid: 83dd7928f3580fd438e94b8557614da4, type: 2}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: questToComplete
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: timeBetweenPattern
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[0]
+      value: thank you so much
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: walkUpSprites.Array.size
@@ -1124,6 +1199,103 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 4f996f1b008db94409d3b3171f7c1429, type: 2}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: count
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[0]
+      value: '*hiss*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[1]
+      value: "Why are you talking to me? Don\u2019t you think I\u2019m sneaky and
+        deceitful?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[2]
+      value: "Why are\u2026 Nobody talks to me because they\u2019re scared I\u2019ll
+        trick them just because I\u2019m a snake, but I\u2019m not like that."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[3]
+      value: Well, except for the grasshopper, and you I guess.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[4]
+      value: "\u2026 Escape? I\u2019m sure everyone else would love to, but I don\u2019t
+        think they\u2019ll like the idea of me tagging along."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[5]
+      value: "\u2026 Really? Thanks, that means a lot. Let me give you a green blob
+        to show my appreciation."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[6]
+      value: "If I go with you, can we please be friends? And\u2026can you help me
+        meet more friends? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[7]
+      value: "And\u2026can you help me meet more friends? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: questToComplete
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: timeBetweenPattern
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[0]
+      value: '*happy hiss*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkUpSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkDownSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkLeftSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkRightSprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkUpSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 575d0fd68374e8f49963707d110b5326, type: 3}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkDownSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6d280a1b34c99824f880b71cfa0e6839, type: 3}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkLeftSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 21888119e89a8af489928d3fecd4a1cc, type: 3}
+    - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: walkRightSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9d52e8f7de9a5e24880b0bad5677bc5d, type: 3}
     - target: {fileID: 1972585797808118493, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: m_Name
       value: snake
@@ -1226,6 +1398,75 @@ PrefabInstance:
     - target: {fileID: 1972585797808118483, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 8690697c3ba250041901fe28fd10ffc5, type: 2}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: count
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[0]
+      value: '*sniffle*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[1]
+      value: '*sniffle* Oh, hi'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[2]
+      value: "\u2026What happened to my shell? Well, the humans didn\u2019t install
+        the right lights in here, so there\u2019s no place for me to bask."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[3]
+      value: "As a result, I have shell deformities. See, here it\u2019s discolored,
+        and here it\u2019s shaped weirdly\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[4]
+      value: "*sniffle* What? You don\u2019t think it\u2019s ugly? Well, yeah, it\u2019s
+        not my fault, but\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[5]
+      value: "\u2026 For real? Oh, thank you so much."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[6]
+      value: "I haven\u2019t felt this much better in a long time. Here, take this
+        as a token of my gratitude."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[7]
+      value: "It\u2019s the shell of my grandma which I hold dear to my heart, but
+        due to your kind words, I think you deserve to have it."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118485, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogue.lines.Array.data[8]
+      value: "No, please take it. It\u2019s all I have to offer."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: questToComplete
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: timeBetweenPattern
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[0]
+      value: "*sniffle* My nose is stuffy from crying\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: walkUpSprites.Array.size

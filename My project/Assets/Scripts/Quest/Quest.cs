@@ -60,7 +60,19 @@ public class Quest
             {
                 if (!inventory.HasItem(requiredItem))
                 {
+                    
                     return false;
+                }
+                else
+                {
+                    var cnt1 = inventory.Slots.Find(slots => slots.Item == requiredItem);
+                    int cnt11 = cnt1.Count;
+                    var cnt2 = Base.RequiredItems.FindAll(item => item == requiredItem);
+                    var cnt22 = cnt2.Count;
+                    if (cnt11 < cnt22)
+                    {
+                        return false;
+                    }
                 }
             }
             //if (!inventory.HasItem(Base.RequiredItem))
