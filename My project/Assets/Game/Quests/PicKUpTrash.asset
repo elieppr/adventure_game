@@ -33,8 +33,8 @@ MonoBehaviour:
     - '... It''s not that big of a deal, really. '
     - My siblings and I have a hard time distinguishing between trash and food, so
       sometimes we get sick from eating something we arent supposed to.
-    - Can you help collect the litter and bring it back here? In exchange, I'll give
-      you the screwdriver.
+    - "Can you help collect the litter and bring it back here? In exchange, I\u2019ll
+      tell you where the key is, and you can help everyone escape."
     - I believe there are 3 Blue Plastic Bags, 2 Crumpled Papers, and 2 Plastic Cups.
   inProgressDialogue:
     lines:
@@ -43,9 +43,9 @@ MonoBehaviour:
   completedDialogue:
     lines:
     - Yay! Now no one will get sick!
-    - Here is the screwdriver. When you get to the purple habitats, try and convice
-      them to use the screwdriver...
-    - THIS DIALOGUE NEEDS FIXING
+    - The screwdriver is in the habitat with all the purple animals. The humans decided
+      to put one there because the animals like shiny objects.
+    - Come back when you have it. Good luck!
   requiredItems:
   - {fileID: 11400000, guid: daeb1549d6a995a4db5c2e29911e300b, type: 2}
   - {fileID: 11400000, guid: daeb1549d6a995a4db5c2e29911e300b, type: 2}

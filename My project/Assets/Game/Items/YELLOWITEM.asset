@@ -15,5 +15,5 @@ MonoBehaviour:
   name: smoke machine
   description: The machine that has been causing chaos for the bees and yellowjackets.
     Give to the royal animals to convince them to help in the escape plan.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: dc1f453197d082f409d4b9749414830e, type: 3}
   character: 

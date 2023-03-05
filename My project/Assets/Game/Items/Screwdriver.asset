@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Shiny Screwdriver
   description: The key to escape. It's so shiny it blinds any human that tries to
     take it
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a14979d2b0467b14abf4467f248460fb, type: 3}
   character: 

@@ -369,11 +369,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: MovementPattern.Array.data[0].x
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: MovementPattern.Array.data[1].x
-      value: -1
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: MovementPattern.Array.data[1].y
@@ -640,7 +640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678145, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: sceneToLoad
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 276526777176678145, guid: 910194669b08241fbbfe1cd86d8e931f, type: 3}
       propertyPath: destinationPortal
@@ -19042,7 +19042,7 @@ PrefabInstance:
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: questToStart
       value: 
-      objectReference: {fileID: 11400000, guid: fade34765a25226478a28aa0cbf91d89, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: questToComplete
       value: 
@@ -19066,6 +19066,27 @@ PrefabInstance:
     - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: MovementPattern.Array.data[1].y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[0]
+      value: There may be more blue starfish than purple, but that just makes my
+        beauty all the more elusive and exotic.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[1]
+      value: This proves my ultimate superiority over those commoners!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[2]
+      value: ......
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972585797808118486, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
+      propertyPath: dialogueBefore.lines.Array.data[3]
+      value: "I treated my cousin so badly\u2026I should apologize."
       objectReference: {fileID: 0}
     - target: {fileID: 1972585797808118487, guid: df3c4aa9e397db041b1bf70072de595b, type: 3}
       propertyPath: walkUpSprites.Array.size

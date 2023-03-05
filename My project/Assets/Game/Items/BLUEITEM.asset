@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Clump of trash
   description: A collection of the most obscure items thrown into the ocean by humans.
     Give to the royal animals to convince them to help in the escape plan.
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: e5fbec51705baf14bbf705d171f0c0d4, type: 3}
   character: 

@@ -15,5 +15,5 @@ MonoBehaviour:
   name: Smoke Machine
   description: A destructive machine used by the humans to try and make the bees
     calm/
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 7d15cf2ad417cef47a541c8420734d4e, type: 3}
   character: 
